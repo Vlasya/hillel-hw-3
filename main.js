@@ -115,25 +115,25 @@ console.log('Массив В',b);
 
 														//  -------4-------
 // В массиве A поменять местами min и max. Массив взять с 3-го задания.					
-// Не комментировать 3 задание								
+							
 
-// var min=Math.min(...b);
+// let arrL=+prompt('Какой длины будет наш массив ?');
+// a =new Array(arrL);
+// prime=[];
+
+// for(i=0,max=900;i<a.length;i++){
+// 	a[i]=Math.floor(Math.random() * Math.floor(max));
+// }
+// console.log('Наш массив',a);					
+
+// var min=Math.min(...a);
 // console.log('min ДО ', min);
-// var max=Math.max(...b);
+// var max=Math.max(...a);
 // console.log('max ДО ', max);
 
-// var c=0;
-// var v=0;
+// var iMax=a.indexOf(max);
+// var iMin=a.indexOf(min);
+// a[iMax]=min;
+// a[iMin]=max;
 
-// for(i=0;i<b.length;i++){
-// 	if(b[i]===min){
-// 		c=min;
-// 	}
-// 	if(b[i]==max){
-// 		min=max;	
-// 	}
-// }
-// max=c;
-
-// console.log('Min ',min);
-// console.log('Max ',max);
+// console.log(a,'Массив после');
