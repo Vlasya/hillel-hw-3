@@ -135,17 +135,31 @@ console.log('Массив В',b);
 
 // let arrL=+prompt('Какой длины будет наш массив ?');
 // a =new Array(arrL);
-// prime=[];
+
 
 // for(i=0,max=900;i<a.length;i++){
 // 	a[i]=Math.floor(Math.random() * Math.floor(max));
 // }
 // console.log('Наш массив',a);					
 
-// var min=Math.min(...a);
-// console.log('min ДО ', min);
-// var max=Math.max(...a);
-// console.log('max ДО ', max);
+
+// var max=0;
+// 	for(i=0;i<a.length;i++){
+// 	if(a[i]>max){
+// 		max=a[i];
+		
+// 	}
+// }
+// console.log(max,'max');
+
+// var min=max;
+// for(i=0;i<a.length;i++){
+// 	if(a[i]<min){
+// 		min=a[i];
+		
+// 	}
+// }
+// console.log(min,'min');
 
 // var iMax=a.indexOf(max);
 // var iMin=a.indexOf(min);
