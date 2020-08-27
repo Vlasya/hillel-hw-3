@@ -91,9 +91,9 @@ console.log('Массив В',b);
 // Элементы массива между min -- max записать в массив B. Массив взять из 2-го задания.
 
 
-// let arrL=+prompt('Какой длины будет наш массив ?');
+// var arrL=+prompt('Какой длины будет наш массив ?');
 // a =new Array(arrL);
-// prime=[];
+
 
 // for(i=0,max=900;i<a.length;i++){
 // 	a[i]=Math.floor(Math.random() * Math.floor(max));
@@ -101,8 +101,24 @@ console.log('Массив В',b);
 // console.log('Наш массив',a);
 
 // var b=[];
-// min=Math.min(...a);
-// max=Math.max(...a);
+// var max=0;
+// 	for(i=0;i<a.length;i++){
+// 	if(a[i]>max){
+// 		max=a[i];
+		
+// 	}
+// }
+// console.log(max,'max');
+
+// var min=max;
+// for(i=0;i<a.length;i++){
+// 	if(a[i]<min){
+// 		min=a[i];
+		
+// 	}
+// }
+// console.log(min,'min');
+
 // for(s=0;s<a.length;s++){
 // 	if(a[s]!==max&&a[s]!==min){
 // 	b.push(a[s]);
@@ -115,25 +131,44 @@ console.log('Массив В',b);
 
 														//  -------4-------
 // В массиве A поменять местами min и max. Массив взять с 3-го задания.					
-// Не комментировать 3 задание								
+// let arrL=+prompt('Какой длины будет наш массив ?');
+// a =new Array(arrL);
 
-// var min=Math.min(...b);
-// console.log('min ДО ', min);
-// var max=Math.max(...b);
-// console.log('max ДО ', max);
+// for(i=0,max=900;i<a.length;i++){
+// 	a[i]=Math.floor(Math.random() * Math.floor(max));
+// }
+// console.log('Наш массив',a);		
 
-// var c=0;
-// var v=0;
-
-// for(i=0;i<b.length;i++){
-// 	if(b[i]===min){
-// 		c=min;
-// 	}
-// 	if(b[i]==max){
-// 		min=max;	
+// var max=0;
+// 	for(i=0;i<a.length;i++){
+// 	if(a[i]>max){
+// 		max=a[i];
+		
 // 	}
 // }
-// max=c;
+// console.log(max,'max');
 
-// console.log('Min ',min);
-// console.log('Max ',max);
+// var min=max;
+// for(i=0;i<a.length;i++){
+// 	if(a[i]<min){
+// 		min=a[i];
+		
+// 	}
+// }
+// console.log(min,'min');		
+
+
+
+// var iMax=a.indexOf(max);
+// var iMin=a.indexOf(min);
+// a[iMax]=min;
+// a[iMin]=max;
+
+// console.log(a,'after');
+
+
+
+
+
+
+
